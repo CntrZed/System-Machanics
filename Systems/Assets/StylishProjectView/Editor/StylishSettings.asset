@@ -35,7 +35,7 @@ MonoBehaviour:
   - Terrains
   - Textures
   - Assets
-  subfolderToggleList: 000000000000000000000000000001
+  subfolderToggleList: 000000000000000000000000000000
   stylishIconList:
   - {fileID: 114431358550187842}
   - {fileID: 114687275180898456}
@@ -1743,6 +1743,115 @@ MonoBehaviour:
         textColor: {r: 0, g: 0, b: 0, a: 1}
         fontStyle: 0
         clearOther: 0
+  - path: Assets/Furniture
+    enable: 1
+    autoLevel: 0
+    autoSibling: 0
+    stylishData:
+      name: 
+      icon:
+        mode: 1
+        blend: 0
+        icon: {fileID: 114312606793189208}
+        normalTints:
+        - {r: 1, g: 1, b: 1, a: 1}
+        - {r: 1, g: 1, b: 1, a: 1}
+        - {r: 1, g: 1, b: 1, a: 1}
+        - {r: 1, g: 1, b: 1, a: 1}
+        smallTints:
+        - {r: 1, g: 1, b: 1, a: 1}
+        - {r: 1, g: 1, b: 1, a: 1}
+        - {r: 1, g: 1, b: 1, a: 1}
+      highlight:
+        mode: 0
+        background: {r: 1, g: 1, b: 1, a: 1}
+        highlight: {r: 1, g: 1, b: 1, a: 1}
+        fadeLength: 1
+        gradient:
+          serializedVersion: 2
+          key0: {r: 1, g: 1, b: 1, a: 1}
+          key1: {r: 1, g: 1, b: 1, a: 1}
+          key2: {r: 0, g: 0, b: 0, a: 0}
+          key3: {r: 0, g: 0, b: 0, a: 0}
+          key4: {r: 0, g: 0, b: 0, a: 0}
+          key5: {r: 0, g: 0, b: 0, a: 0}
+          key6: {r: 0, g: 0, b: 0, a: 0}
+          key7: {r: 0, g: 0, b: 0, a: 0}
+          ctime0: 0
+          ctime1: 65535
+          ctime2: 0
+          ctime3: 0
+          ctime4: 0
+          ctime5: 0
+          ctime6: 0
+          ctime7: 0
+          atime0: 0
+          atime1: 65535
+          atime2: 0
+          atime3: 0
+          atime4: 0
+          atime5: 0
+          atime6: 0
+          atime7: 0
+          m_Mode: 0
+          m_NumColorKeys: 2
+          m_NumAlphaKeys: 2
+        overrideText: 0
+        textColor: {r: 0, g: 0, b: 0, a: 1}
+        fontStyle: 0
+        clearOther: 0
+  - path: Assets/MayaRaw
+    enable: 1
+    autoLevel: 0
+    autoSibling: 0
+    stylishData:
+      name: 
+      icon:
+        mode: 2
+        blend: 2
+        icon: {fileID: 114694545050879848}
+        normalTints:
+        - {r: 1, g: 1, b: 1, a: 1}
+        - {r: 1, g: 1, b: 1, a: 1}
+        smallTints: []
+      highlight:
+        mode: 0
+        background: {r: 1, g: 1, b: 1, a: 1}
+        highlight: {r: 1, g: 1, b: 1, a: 1}
+        fadeLength: 1
+        gradient:
+          serializedVersion: 2
+          key0: {r: 1, g: 1, b: 1, a: 1}
+          key1: {r: 1, g: 1, b: 1, a: 1}
+          key2: {r: 0, g: 0, b: 0, a: 0}
+          key3: {r: 0, g: 0, b: 0, a: 0}
+          key4: {r: 0, g: 0, b: 0, a: 0}
+          key5: {r: 0, g: 0, b: 0, a: 0}
+          key6: {r: 0, g: 0, b: 0, a: 0}
+          key7: {r: 0, g: 0, b: 0, a: 0}
+          ctime0: 0
+          ctime1: 65535
+          ctime2: 0
+          ctime3: 0
+          ctime4: 0
+          ctime5: 0
+          ctime6: 0
+          ctime7: 0
+          atime0: 0
+          atime1: 65535
+          atime2: 0
+          atime3: 0
+          atime4: 0
+          atime5: 0
+          atime6: 0
+          atime7: 0
+          m_Mode: 0
+          m_NumColorKeys: 2
+          m_NumAlphaKeys: 2
+        overrideText: 0
+        textColor: {r: 0, g: 0, b: 0, a: 1}
+        fontStyle: 0
+        clearOther: 0
 --- !u!114 &114002694587577616
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2661,20 +2770,14 @@ MonoBehaviour:
   normal:
   - useResource: 0
     resource: 
-    textures: {fileID: 2800000, guid: 13d89bacd1d54ac4dbce35c637567a40, type: 3}
-    tints: {r: 0.434, g: 0.040441185, b: 0.31617665, a: 1}
+    textures: {fileID: 0}
+    tints: {r: 1, g: 1, b: 1, a: 1}
     offset: {x: 0, y: 0}
-    size: {x: 1, y: 1}
+    size: {x: 0.5, y: 0.5}
   - useResource: 0
     resource: 
-    textures: {fileID: 2800000, guid: 517a47f292fe8bd41aa25bf11a60a27e, type: 3}
-    tints: {r: 0.19347334, g: 0.6764706, b: 0.12932526, a: 1}
-    offset: {x: 0, y: 0}
-    size: {x: 1, y: 1}
-  - useResource: 0
-    resource: 
-    textures: {fileID: 2800000, guid: d39c78020f499484994563ba1bb2bae6, type: 3}
-    tints: {r: 0.026600335, g: 0.054423597, b: 0.60294116, a: 1}
+    textures: {fileID: 2800000, guid: 99f9e92b79a0ed747a83b4e76a9e5453, type: 3}
+    tints: {r: 1, g: 1, b: 1, a: 1}
     offset: {x: 0, y: 0}
     size: {x: 1, y: 1}
   small: []
